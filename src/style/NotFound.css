@@ -1,0 +1,43 @@
+@media screen {
+
+.container-not-found{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    gap: 100px;
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: auto;
+    align-items: center;
+    background-size: fill;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000211ff;
+    justify-content: space-between;
+    background-image: url('https://cdnl.iconscout.com/lottie/premium/thumb/404-error-page-3959253-3299952.gif');
+}
+
+
+.container-not-found h1 {
+    font-size: 1.7rem;
+    color: var(--background-color);
+}
+
+
+.not-f-btn {
+    width: 100%;
+    padding: 10px;
+    text-transform: capitalize;
+    color: var(--light-color);
+    background-color:var(--secondary-color);
+}
+
+}
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+
+}

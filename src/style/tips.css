@@ -1,0 +1,155 @@
+@media screen {
+  .upcoming-in {
+    gap: 30px;
+    display: flex;
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+
+  .team-form-u {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-as {
+    gap: 20px;
+    display: flex;
+    min-height: 200px;
+    flex-direction: column;
+  }
+
+  .team-header {
+    gap: 10px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+  }
+
+  .team-header h1 {
+    font-size: .8rem;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+
+  .Cf-p {
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cp-sp {
+    gap: 20px;
+    display: flex;
+
+  }
+
+  .team-header h4 {
+    font-weight: 400;
+    text-align: center;
+    
+  }
+
+  .form-xs {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .formation-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 5px;
+    object-position: center;
+  }
+
+  .formation-score {
+    gap: 5px;
+    display: flex;
+    padding: 4px 10px;
+    border-radius: 4px;
+    align-items: center;
+    background-color: var(--primary-color);
+  }
+
+  .formation-score span {
+    font-size: 0.8rem;
+  }
+
+  .team-form-a {
+    gap: 20px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+ 
+  .tbl-slider {
+    width: 100%;
+    background-color: var(--tertiary-color);
+
+  }
+
+  .tbl-slider table {
+    width: 100%;
+    font-size: 0.7rem;
+    border: 1px solid var(--primary-color);
+  }
+
+  td {
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: 100;
+    border: 1px solid var(--primary-color);
+
+    color: var(--background-color);
+  }
+
+  .table-formation {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .table-formation span {
+    text-transform: capitalize;
+  }
+
+  .tbl-f-image {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  th {
+    padding: 10px;
+    font-weight: 300;
+    text-align: start;
+    text-transform: uppercase;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+
+  /* table css  */
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .upcoming-in {
+    padding: 30px 20px;
+  }
+  .Cf-p {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+ 
+}
